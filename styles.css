@@ -24,6 +24,11 @@ body {
     margin: 0 auto; /* Center the box */
 }
 
+.box p:last-child {
+    max-width: 100%;
+    overflow-wrap: break-word;
+}
+
 @media (max-width: 600px) {
     .box {
         width: 90%;
