@@ -1,8 +1,8 @@
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(to bottom, #3494E6, #EC6EAD); /* Gradient background */
-    color: #fff; /* Text color for better contrast on the gradient background */
+    background: linear-gradient(to bottom, #3494E6, #EC6EAD);
+    color: #fff;
 }
 
 .container {
@@ -13,16 +13,19 @@ body {
 }
 
 .box {
-    background-color: rgba(255, 255, 255, 0.5); /* Translucent white background */
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    color: #000; /* Text color inside the box */
+    color: #000;
+    max-width: 600px; /* Limit the maximum width of the box */
+    width: 80%; /* Set a responsive width */
+    margin: 0 auto; /* Center the box */
 }
 
 @media (max-width: 600px) {
     .box {
-        width: 80%;
+        width: 90%;
     }
 }
