@@ -13,11 +13,12 @@ body {
 }
 
 .box {
-    background-color: rgba(255, 255, 255, 0.8); /* Translucent white background */
+    background-color: rgba(255, 255, 255, 0.5); /* Translucent white background */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    color: #000; /* Text color inside the box */
 }
 
 @media (max-width: 600px) {
